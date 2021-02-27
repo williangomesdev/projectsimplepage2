@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background-color: #d6d6d6;
+    padding: 10px 2%;
+}
+
+.containerHeader {
+    max-width: 1440px;
+    background-color: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+    width: 230px;
+    height: 75px;
+    background-image: url(../imagens/logo1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo2 {
+    width: 200px;
+    height: 56px;
+    background-image: url(../imagens/logo2.png);
+    background-size: cover;
+    background-position: center;
+}
